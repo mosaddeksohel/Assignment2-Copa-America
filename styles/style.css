@@ -1,9 +1,12 @@
+/*-------------------
+font popins
+ ---------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     width: 1440px;
-    height: 3750px;
+    
 }
 .top-banner{
     width: 1440px;
@@ -12,17 +15,18 @@ body{
 }
 .button{
     color: #FFFFFF;
-    padding: 10px;
-   
+    padding-top: 40px;
+
 }
 
 .container{
     background-color: #FFFFFF;
     margin-left: 180px;
+    display: flex;
+    margin-bottom: 165px;
 }
 .blogs{
     width: 330px;
-    height: 474px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -35,7 +39,7 @@ body{
     height: 426px;
     padding: 15px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 3px;
 }
 .blog img{
     width: 300px;
@@ -49,4 +53,46 @@ body{
     font-size: 16px;
     color: #6C6C6C;
     width: 300px;
+}
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    width: 1089px;
+    height: 427px;
+}
+.summary{
+    width: 469px;
+    height: 309px;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.match img{
+    width: 567px;
+    height: 427px;
+}
+
+
+/*------------------------------- 
+        footer
+-------------------------------- */
+footer img{
+    width: 483.87px;
+    height: 110px;
+    margin-left: 475px;
+}
+.font{
+    display: flex;
+    text-align: center;
+    margin-left: 650px;
+}
+.font a{
+    padding:10px ;
+
+}
+.copyright{
+    margin-left: 650px;
 }
