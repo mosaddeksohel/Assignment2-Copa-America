@@ -18,7 +18,8 @@ body{
 
 .container{
     background-color: #FFFFFF;
-}    
+    margin-left: 180px;
+}
 .blogs{
     width: 330px;
     height: 474px;
